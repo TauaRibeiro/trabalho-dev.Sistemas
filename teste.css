@@ -10,9 +10,19 @@
     font-style: normal;
   }
   
+  header {
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   
   body {
-    background-color: gray;
+    background-color: rgb(167, 218, 221);
   }
   
   .container {
@@ -33,10 +43,10 @@
   }
   
   .card {
-    background-color: rgba(137, 155, 143, 0.712);
+    background-color: rgba(62, 138, 93, 0.712);
     width: 300px;
     height: 375px;
-    border: 4px inset rgb(79, 88, 82);
+    border: 4px inset rgb(62, 138, 93, 0.712);
     border-radius: 8px;
     box-shadow: 1px 1px 11px 2.5px rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease-in-out;
@@ -76,7 +86,7 @@
     padding: 8px;
     font-size: 12px;
     line-height: 15px;
-    transition: height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out, font-size 0.5s ease-in-out;
     
   }
 
