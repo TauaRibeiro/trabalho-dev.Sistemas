@@ -110,3 +110,19 @@
     font-size: 45px;
 
   }
+
+  .creditos {
+    position: fixed;
+    padding: 10px;
+    bottom: 5px;
+  }
+
+  .creditos p a{
+    text-decoration: none;
+    color: black
+  }
+
+  .creditos p a:hover {
+    color: blue;
+    cursor: pointer;
+  }
