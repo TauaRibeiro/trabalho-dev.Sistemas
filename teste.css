@@ -12,7 +12,10 @@
   
   header {
     width: 100%;
-    /* background-color: red; */
+    color: rgb(253, 201, 67);
+    background-image: url(https://i.pinimg.com/736x/27/32/a4/2732a4d77346d536233da4c875517796.jpg);
+    background-size: contain;
+    height: 100px;
     position: relative;
     display: flex;
     align-content: center;
@@ -22,8 +25,16 @@
   }
   
   body {
-    background-color: rgb(167, 218, 221);
+    background: url('https://i.pinimg.com/736x/af/6e/27/af6e27ba4f7b410216c2ef0451073c99.jpg');
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
   
   .container {
     min-height: 500px;
@@ -39,15 +50,13 @@
     gap: 100px; 
     padding: 20px;
     top: 100px;
-    left: 10%;
   }
   
   .card {
-    background-color: rgba(62, 138, 93, 0.712);
+    background: linear-gradient(#242121, #444444);
     width: 300px;
     height: 375px;
-    border: 4px inset rgb(62, 138, 93, 0.712);
-    border-radius: 8px;
+    border: 4px inset #acaaa6;
     box-shadow: 1px 1px 11px 2.5px rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease-in-out;
     gap: 4px;
@@ -65,10 +74,10 @@
   }
   
   .card .imagem {
-    width: 100%;
-    height: 90%;
+    width: 292px;
+    height: 224px;
     overflow: hidden;
-    transition: height 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
   
   .card .imagem img {
@@ -79,10 +88,12 @@
   }
   
   .card:hover .imagem {
-    height: 75%;
+    width: 342px;
+    height: 217px;
   }
   
   .card .descricao {
+    color: white;
     padding: 8px;
     font-size: 12px;
     line-height: 15px;
@@ -91,13 +102,14 @@
   }
 
   .card:hover .descricao{
-
+    color: white;
     font-size: 17px;
     line-height: 22px;
 
   }
 
   .titulocard p {
+    color:white;
     height: 2%;
     font-family: "Italianno", serif;
     font-size: 35px;
@@ -113,7 +125,7 @@
 
   .creditos {
     position: fixed;
-    padding: 10px;
+    padding: 5px;
     bottom: 5px;
   }
 
