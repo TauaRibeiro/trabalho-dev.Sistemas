@@ -1,140 +1,159 @@
 * {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-  }
-  
-  .italianno-regular {
-    font-family: "Italianno", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  header {
-    width: 100%;
-    color: rgb(253, 201, 67);
-    background-image: url(https://i.pinimg.com/736x/27/32/a4/2732a4d77346d536233da4c875517796.jpg);
-    background-size: contain;
-    height: 100px;
-    position: relative;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  body {
-    background: url('https://i.pinimg.com/736x/af/6e/27/af6e27ba4f7b410216c2ef0451073c99.jpg');
-    /* background-repeat: no-repeat; */
-    background-attachment: fixed;
-    /* background-size: cover; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
 
+.italianno-regular {
+  font-family: "Italianno", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  width: 100%;
+  background-image: url(https://i.pinimg.com/736x/27/32/a4/2732a4d77346d536233da4c875517796.jpg);
+  background-size: contain;
+  height: 140px;
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+header h1 {
+  font-size: 58px; /* Aumenta o tamanho da fonte */
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold; /* Deixa em negrito */
+  color: #FFD700; /* Muda a cor (exemplo: amarelo vibrante) */
+  text-transform: uppercase; /* Deixa tudo em maiúsculas */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adiciona sombra para destacar */
+}
+
+
+body {
+  background: url('https://i.pinimg.com/736x/af/6e/27/af6e27ba4f7b410216c2ef0451073c99.jpg');
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  min-height: 500px;
+  max-width: 1500px;
+  /* background-color: red; */
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+  gap: 100px; 
+  padding: 20px;
+  top: 100px;
+}
+
+.card {
+  background: linear-gradient(#242121, #444444);
+  width: 300px;
+  height: 375px;
+  border: 4px inset #acaaa6;
+  box-shadow: 1px 1px 11px 2.5px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  overflow: hidden;
+}
+
+.card:hover {
+  width: 350px;
+  height: 415px;
+  box-shadow: 2.5px 2.5px 27.5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card .imagem {
+  width: 292px;
+  height: 224px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.card .imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom: 3px solid rgb(63, 59, 59);
+}
+
+.card:hover .imagem {
+  width: 342px;
+  height: 217px;
+}
+
+.card .descricao {
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  line-height: 15px;
+  transition: all 0.5s ease-in-out, font-size 0.5s ease-in-out;
   
-  .container {
-    min-height: 500px;
-    max-width: 1500px;
-    /* background-color: red; */
-    position: relative;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 200px;
-    gap: 100px; 
-    padding: 20px;
-    top: 100px;
-  }
-  
-  .card {
-    background: linear-gradient(#242121, #444444);
-    width: 300px;
-    height: 375px;
-    border: 4px inset #acaaa6;
-    box-shadow: 1px 1px 11px 2.5px rgba(0, 0, 0, 0.2);
-    transition: all 0.5s ease-in-out;
-    gap: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    overflow: hidden;
-  }
-  
-  .card:hover {
-    width: 350px;
-    height: 415px;
-    box-shadow: 2.5px 2.5px 27.5px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .card .imagem {
-    width: 292px;
-    height: 224px;
-    overflow: hidden;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .card .imagem img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-bottom: 3px solid rgb(63, 59, 59);
-  }
-  
-  .card:hover .imagem {
-    width: 342px;
-    height: 217px;
-  }
-  
-  .card .descricao {
-    color: white;
-    padding: 8px;
-    font-size: 12px;
-    line-height: 15px;
-    transition: all 0.5s ease-in-out, font-size 0.5s ease-in-out;
-    
-  }
+}
 
-  .card:hover .descricao{
-    color: white;
-    font-size: 17px;
-    line-height: 22px;
+.card:hover .descricao{
+  color: white;
+  font-size: 17px;
+  line-height: 22px;
 
-  }
+}
 
-  .titulocard p {
-    color:white;
-    height: 2%;
-    font-family: "Italianno", serif;
-    font-size: 35px;
-    transition: height 0.5s ease-in-out, font-size 0.5s ease-in-out;
-  }
+.titulocard p {
+  color:white;
+  height: 2%;
+  font-family: "Italianno", serif;
+  font-size: 35px;
+  transition: height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+}
 
-  .card:hover .titulocard p{
-    height: 5%;
-    font-family: "Italianno", serif;
-    font-size: 45px;
+.card:hover .titulocard p{
+  height: 5%;
+  font-family: "Italianno", serif;
+  font-size: 45px;
 
-  }
+}
 
-  .creditos {
-    position: fixed;
-    padding: 5px;
-    bottom: 5px;
-  }
 
-  .creditos p a{
-    text-decoration: none;
-    color: black
-  }
+footer {
+  background: none; /* Remove qualquer fundo */
+  padding: 10px 0; /* Ajusta o espaçamento */
+  text-align: left; /* Centraliza o conteúdo */
+}
 
-  .creditos p a:hover {
-    color: blue;
-    cursor: pointer;
-  }
+footer .creditos p {
+  font-family: 'Poppins', sans-serif; /* Usa a fonte Poppins */
+  font-size: 16px; /* Ajuste o tamanho da fonte */
+  font-weight: 500; /* Deixa a fonte um pouco mais grossa */
+  color: #FF3131; /* Cor vermelha vibrante */
+  margin: 5px 0; /* Adiciona espaçamento entre os elementos */
+}
+
+footer .creditos a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #ffffff; /* Cor branca para melhor contraste */
+  font-weight: bold; /* Deixa o nome mais destacado */
+  transition: color 0.3s ease; /* Suaviza a mudança de cor */
+}
+
+footer .creditos a:hover {
+  color: #FFD700; /* Altera a cor para dourado ao passar o mouse */
+}
