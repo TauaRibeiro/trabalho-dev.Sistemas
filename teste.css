@@ -13,39 +13,39 @@
 
 }
 nav {
-    padding: 4px ; /* Espaçamento interno */
-    display: flex; /* Ativa o flexbox */
+    padding: 4px ; 
+    display: flex; 
     justify-content: flex-end;
     margin-left: auto;
 
 
 }
 
-/* Remove os marcadores padrão da lista */
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Deixa os itens lado a lado */
-    gap: 10px; /* Espaço entre os itens */
+    display: flex; 
+    gap: 10px; 
 }
 
 
 nav ul li a {
     border-radius: 5px;
-    text-decoration: none; /* Remove sublinhado */
-    color: #ffffff; /* Cor do texto */
-    background-color: #1B2838; /* Cor de fundo */
-    padding: 10px; /* Espaçamento interno */
-    border-radius: 3px; /* Borda arredondada */
-    font-weight: bold; /* Negrito */
-    transition: 0.3s; /* Suaviza o efeito hover */
+    text-decoration: none; 
+    color: #ffffff; 
+    background-color: #1B2838; 
+    padding: 10px; 
+    border-radius: 3px; 
+    font-weight: bold; 
+    transition: 0.3s; 
 }
 
-/* Efeito ao passar o mouse */
+
 nav ul li a:hover {
-    background-color: #ffd700; /* Muda cor ao passar o mouse */
-    color: #333; /* Muda cor do texto */
+    background-color: #ffd700; 
+    color: #333;
 }
 
 
@@ -69,24 +69,17 @@ header h1 {
     border: 2px #ffffff;
     display: inline-block; 
     font-size: 58px;
-    /* Aumenta o tamanho da fonte */
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    /* Deixa em negrito */
     color: #D3D3D3;
-    /* Muda a cor (exemplo: amarelo vibrante) */
     text-transform: uppercase;
-    /* Deixa tudo em maiúsculas */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    /* Adiciona sombra para destacar */
 }
 
 
 body {
     background: url('https://i.pinimg.com/736x/af/6e/27/af6e27ba4f7b410216c2ef0451073c99.jpg');
-    /* background-repeat: no-repeat; */
     background-attachment: fixed;
-    /* background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +90,6 @@ body {
 .container {
     min-height: 500px;
     max-width: 1800px;
-    /* background-color: red; */
     position: relative;
     display: flex;
     align-content: center;
@@ -190,38 +182,25 @@ p {
 
 footer {
     background: none;
-    /* Remove qualquer fundo */
     padding: 10px 0;
-    /* Ajusta o espaçamento */
     text-align: left;
-    /* Centraliza o conteúdo */
 }
 
 footer .creditos p {
     font-family: 'Poppins', sans-serif;
-    /* Usa a fonte Poppins */
     font-size: 16px;
-    /* Ajuste o tamanho da fonte */
     font-weight: 500;
-    /* Deixa a fonte um pouco mais grossa */
     color: #FF3131;
-    /* Cor vermelha vibrante */
     margin: 5px 0;
-    /* Adiciona espaçamento entre os elementos */
 }
 
 footer .creditos a {
     text-decoration: none;
-    /* Remove o sublinhado dos links */
     color: #ffffff;
-    /* Cor branca para melhor contraste */
     font-weight: bold;
-    /* Deixa o nome mais destacado */
     transition: color 0.3s ease;
-    /* Suaviza a mudança de cor */
 }
 
 footer .creditos a:hover {
     color: #FFD700;
-    /* Altera a cor para dourado ao passar o mouse */
 }
