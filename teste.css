@@ -1,243 +1,227 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./teste.css" />
-    <title>Carros</title>
-  </head>
-  <body>
-    <header>
-      <h1>Garage dos Sonhos</h1>
-      <nav>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Carros Esportivos</a></li>
-            <li><a href="#">Carros Classicos</a></li>
-        </ul>
-    </nav>
-    
-    </header>
-    <main>
-      <div class="container">
-        <div class="card">
-          <div class= "titulocard">
-            <p>Ferrari SF90 Stradale</p>
-          </div>        
-          <div class="imagem">
-            <img
-              src="https://i.pinimg.com/736x/9e/7b/7e/9e7b7e5bdcc70f3e8916d6aa5d576318.jpg"
-              alt="Erro ao carregar imagem"
-            />
-          </div>
-          <div class="descricao">
-            <p><b>Ano Modelo:</b> 2025</p>
-             <p><b>Nome do Modelo:</b> Ferrari SF90 Stradale</p>
-              <p><b>Potência:</b> 1.000 cv </p>
-              <p>(Sistema híbrido V8 + motores elétricos)</p>
-              <p><b>Valor Estimado:</b> A partir de R$ 3.060,000</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p>Porsche 911</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://phantom-marca.unidadeditorial.es/ab4f3bf70c2d1003645b35b06113ff01/resize/640/assets/multimedia/imagenes/2020/04/01/15857621770708.jpg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b>Modelo:</b> 2025</p>
-            <p><b>Nome do modelo:</b> Porsche 911 3.0 Carrera Coupé PDK (Automático)</p>
-            <p><b>Potência:</b> 394 cv</p>
-            <p><b>Valor Estimado:</b> A partir de R$ 868.000</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p>Chevrolet Corvette Stingray</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://i0.statig.com.br/bancodeimagens/55/zr/w4/55zrw4v0apxb2py0z97e8v1ve.jpg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 2025</p>
-            <p><b>Nome do Modelo:</b> Chevrolet Corvette Stingray</p>
-            <p><b>Potência:</b> 495 cv</p>
-            <p><b>Valor Estimado:</b> A partir de R$ 350.400</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p>Lamborghini Miura</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lamborghini_miura_coup%C3%A9_1967_-aa.jpg/640px-Lamborghini_miura_coup%C3%A9_1967_-aa.jpg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 1966-1973</p>
-            <p><b>Nome do Modelo:</b> Lamborghini Miura</p>
-            <p><b>Potência:</b> 350 cv a 7.000 rpm</p>
-            <p><b>Valor Estimado:</b> Valores de leilão recentes ultrapassam R$ 8.760.000</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p>Ford Mustang</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://miamiimports.com.br/wp-content/uploads/2023/12/Ford-Mustang-Shelby-Gt-500-06.jpg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 2025</p>
-            <p><b>Nome do Modelo:</b> Ford Mustang GT</p>
-            <p><b>Potência:</b> 450 cv</p>
-            <p><b>Valor Estimado:</b> A partir de R$ 500.000</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p> Jaguar F-Type R</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://s2-autoesporte.glbimg.com/ejuiajZ_XsWUl12kAS6ZlMbjYFg=/0x0:620x350/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/N/B/qluLgfRWWtFWw4cDMgYg/2016-01-08-jag-ftype-16my-awd-r-storm-grey-image-191114-03.jpg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 2025</p>
-            <p><b>Nome do Modelo:</b> Jaguar F-Type R Coupé</p>
-            <p><b>Potência:</b> 575 cv (V8 Supercharged)</p>
-            <p><b>Valor Estimado:</b> A partir de R$ 671.600</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p>Aston Martin DB5</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://s2-autoesporte.glbimg.com/YuQCLwHguGOEAeBbRWTLqIzwB8c=/0x0:620x400/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/2/h/IRyoaRQ3qVGgwIRNmFlA/2013-02-01-aston-martin-db5-1965.jpg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 1963-1965</p>
-            <p><b>Nome do Modelo:</b> Aston Martin DB5</p>
-            <p><b>Potência:</b>  282 cv a 5.500 rpm</p>
-            <p><b>Valor Estimado:</b> Valores de leilão variam entre R$ 5.840.000 a R$ 17.520.000</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p>Dodge Viper</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://cdn.motor1.com/images/mgl/xEyvz/s1/2016-dodge-viper-acr.jpg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 2017</p>
-            <p><b>Nome do Modelo:</b> Dodge Viper SRT</p>
-            <p><b>Potência:</b>  645 cv a 6.200 rpm</p>
-            <p><b>Valor Estimado:</b> Últimas unidades foram vendidas por R$ 525.600</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p>Mercedes-Benz 300SL</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://360view.3dmodels.org/zoom/Mercedes-Benz/Mercedes-Benz_300_SL_Gullwing_1954_1000_0001.jpg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 1954-1957</p>
-            <p><b>Nome do Modelo:</b> Mercedes-Benz 300SL Gullwing</p>
-            <p><b>Potência:</b>  215 cv  a 5.800 rpm</p>
-            <p><b>Valor Estimado:</b> Valor estimado de R$ 8.760.000</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p> Ferrari F40</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://hagerty-vid-images.imgix.net/vehicles/90_ferrari_f40_coupe_hagertyflickr_rank1.jpg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 1987-1992</p>
-            <p><b>Nome do Modelo:</b>  Ferrari F40</p>
-            <p><b>Potência:</b>  478 cv a 7.000 rpm </p>
-            <p><b>Valor Estimado:</b> Valor estimado de R$ 17.520.000</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p> Koenigsegg Jesko </p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://hyper.luxe/wp-content/uploads/2025/01/Koenigsegg-Jesko-Attack-for-sale-15.jpeg"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 2025</p>
-            <p><b>Nome do Modelo:</b> Koenigsegg Jesko</p>
-            <p><b>Potência:</b>  1.600 cv </p>
-            <p><b>Valor Estimado:</b> Valor estimado de R$ 20.440.000</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="titulocard">
-            <p> Rimac Nevera</p>
-          </div>
-          <div class="imagem">
-            <img
-              src="https://autogiz.com/product_images/webp/2025-Rimac-Nevera-R.webp"
-              alt="imagem de um carro"
-            />
-          </div>
-          <div class="descricao">
-            <p><b> Modelo:</b> 2025</p>
-            <p><b>Nome do Modelo:</b> Rimac Nevera</p>
-            <p><b>Potência:</b>  1.914 cv (100% elétrico)</p>
-            <p><b>Valor Estimado:</b> Valor estimado de R$ 12.264.000</p>
-          </div>
-        </div>
-        
-      </div>
-    <footer>
-      <!-- Rodapé onde irá conter os nossos nomes-->
-      <div class="creditos">
-        <p>Créditos</p>
-        <p>&copy;<a href="https://github.com/Everton09Dev" target="_blank">Everton Lucas</a></p>
-        <p>&copy;<a href="https://github.com/TauaRibeiro/" target="_blank">Tauã Ribeiro</a></p>
-      </div>
-    </footer>
-  </body>
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.italianno-regular {
+    font-family: "Italianno", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+nav {
+    padding: 4px ; /* Espaçamento interno */
+    display: flex; /* Ativa o flexbox */
+    justify-content: flex-end;
+    margin-left: auto;
+
+
+}
+
+/* Remove os marcadores padrão da lista */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Deixa os itens lado a lado */
+    gap: 10px; /* Espaço entre os itens */
+}
+
+
+nav ul li a {
+    border-radius: 5px;
+    text-decoration: none; /* Remove sublinhado */
+    color: #ffffff; /* Cor do texto */
+    background-color: #1B2838; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 3px; /* Borda arredondada */
+    font-weight: bold; /* Negrito */
+    transition: 0.3s; /* Suaviza o efeito hover */
+}
+
+/* Efeito ao passar o mouse */
+nav ul li a:hover {
+    background-color: #ffd700; /* Muda cor ao passar o mouse */
+    color: #333; /* Muda cor do texto */
+}
+
+
+header {
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/27/32/a4/2732a4d77346d536233da4c875517796.jpg);
+    background-size: contain;
+    height: 140px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    background-color: #3A506B;
+    border-radius: 20px;
+    border: 2px #ffffff;
+    display: inline-block; 
+    font-size: 58px;
+    /* Aumenta o tamanho da fonte */
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    /* Deixa em negrito */
+    color: #D3D3D3;
+    /* Muda a cor (exemplo: amarelo vibrante) */
+    text-transform: uppercase;
+    /* Deixa tudo em maiúsculas */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Adiciona sombra para destacar */
+}
+
+
+body {
+    background: url('https://i.pinimg.com/736x/af/6e/27/af6e27ba4f7b410216c2ef0451073c99.jpg');
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    min-height: 500px;
+    max-width: 1800px;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    gap: 35px;
+    padding: 20px;
+    top: 100px;
+}
+
+.card {
+    background: linear-gradient(#1B2838, #3A506B);
+    width: 300px;
+    height: 375px;
+    border: 4px inset #acaaa6;
+    box-shadow: 1px 1px 11px 2.5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.card:hover {
+    width: 350px;
+    height: 415px;
+    box-shadow: 2.5px 2.5px 27.5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card .imagem {
+    width: 292px;
+    height: 224px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.card .imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 3px solid rgb(63, 59, 59);
+}
+
+.card:hover .imagem {
+    width: 342px;
+    height: 217px;
+}
+
+.card .descricao {
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 15px;
+    transition: all 0.5s ease-in-out, font-size 0.5s ease-in-out;
+
+}
+
+.card:hover .descricao {
+    color: white;
+    font-size: 17px;
+    line-height: 22px;
+
+}
+
+.titulocard p {
+    color: white;
+    height: 2%;
+    font-family: "Italianno", serif;
+    font-size: 35px;
+    transition: height 0.5s ease-in-out, font-size 0.5s ease-in-out;
+}
+
+.card:hover .titulocard p {
+    height: 5%;
+    font-family: "Italianno", serif;
+    font-size: 45px;
+
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+footer {
+    background: none;
+    /* Remove qualquer fundo */
+    padding: 10px 0;
+    /* Ajusta o espaçamento */
+    text-align: left;
+    /* Centraliza o conteúdo */
+}
+
+footer .creditos p {
+    font-family: 'Poppins', sans-serif;
+    /* Usa a fonte Poppins */
+    font-size: 16px;
+    /* Ajuste o tamanho da fonte */
+    font-weight: 500;
+    /* Deixa a fonte um pouco mais grossa */
+    color: #FF3131;
+    /* Cor vermelha vibrante */
+    margin: 5px 0;
+    /* Adiciona espaçamento entre os elementos */
+}
+
+footer .creditos a {
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    color: #ffffff;
+    /* Cor branca para melhor contraste */
+    font-weight: bold;
+    /* Deixa o nome mais destacado */
+    transition: color 0.3s ease;
+    /* Suaviza a mudança de cor */
+}
+
+footer .creditos a:hover {
+    color: #FFD700;
+    /* Altera a cor para dourado ao passar o mouse */
+}
